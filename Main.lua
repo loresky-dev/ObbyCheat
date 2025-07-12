@@ -24,7 +24,7 @@ wait(1)
 repeat
 task.wait(0.4) 
     c = c + 1
-if folder:FindFirstChild(c):IsA("BasePart then
+if folder:FindFirstChild(c):IsA("BasePart) then
     game.Players.LocalPlayer.Character:MoveTo(folder:FindFirstChild(c).Position)
 	print("stage ".. c .. " completed.. checking next")
 					end
