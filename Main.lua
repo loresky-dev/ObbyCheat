@@ -22,10 +22,12 @@ wait(1)
 print("1")
 wait(1)
 repeat
-task.wait(0.4)
+task.wait(0.4) 
     c = c + 1
+if folder:FindFirstChild(c):IsA("BasePart then
     game.Players.LocalPlayer.Character:MoveTo(folder:FindFirstChild(c).Position)
 	print("stage ".. c .. " completed.. checking next")
+					end
 until c == #counter
 print("finished ur obby is probably done!")
 		end
